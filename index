@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Quân 💙</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Nền -->
+<div class="sky">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+</div>
+
+<!-- Poodle rơi -->
+<div id="poodles"></div>
+
+<!-- Hộp quà -->
+<section id="home" class="page active">
+
+    <div class="gift" id="gift">
+        💝
+    </div>
+
+    <h1>Có một món quà dành cho Quân</h1>
+
+    <p>Chạm vào hộp quà để mở</p>
+
+</section>
+
+<!-- Lá thư -->
+
+<section id="letter" class="page">
+
+<div class="card">
+
+<h2>💌 Gửi Quân</h2>
+
+<p id="typing"></p>
+
+<button id="next">
+Tiếp tục 🎂
+</button>
+
+</div>
+
+</section>
+
+<!-- Bánh -->
+
+<section id="cakePage" class="page">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+
+<div class="cake">
+
+<div class="layer layer1"></div>
+
+<div class="layer layer2"></div>
+
+<div class="layer layer3"></div>
+
+<div class="candle">
+
+<div id="flame"></div>
+
+</div>
+
+</div>
+
+<button id="blow">
+
+🕯️ Thổi nến
+
+</button>
+
+</section>
+
+<!-- Kết -->
+
+<section id="end" class="page">
+
+<h1>❤️ Happy Birthday Quân ❤️</h1>
+
+<h2>
+
+Chúc Quân luôn mạnh khỏe<br>
+
+Mẹ khỏe ❤️ Con ngoan 👶
+
+</h2>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
